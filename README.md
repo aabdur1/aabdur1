@@ -12,6 +12,6 @@ Case studies: [amirabdurrahim.com/work](https://amirabdurrahim.com/work)
 
 **[docdefend-mvp](https://github.com/aabdur1/docdefend-mvp).** A web app that uses the Claude API to check whether E/M documentation supports the billing code before a claim goes out. The `agent/` folder rebuilds it as a Google ADK and Gemini agent that checks each cited code against live NLM data. It passed all 16 of its eval cases in the recorded run.
 
-**[healthcare-terminology-mcp](https://github.com/aabdur1/healthcare-terminology-mcp).** An MCP server for ICD-10-CM, LOINC, RxNorm, HCPCS, and NPI lookups through NLM's public APIs. The DocDefend agent uses it.
+**[healthcare-terminology-mcp](https://github.com/aabdur1/healthcare-terminology-mcp).** An MCP server for ICD-10-CM, LOINC, RxNorm, HCPCS, and NPI lookups through public NLM and CMS APIs. The DocDefend agent uses it.
 
 **[spotify-listening-dashboard](https://github.com/aabdur1/spotify-listening-dashboard).** My own Spotify history, 61,230 plays from 2021 to 2026, cleaned in Python notebooks and published as a [Tableau Public dashboard](https://public.tableau.com/app/profile/amir.abdur.rahim/viz/MySpotifyListening2021-2026/MySpotifyListening20212026).
